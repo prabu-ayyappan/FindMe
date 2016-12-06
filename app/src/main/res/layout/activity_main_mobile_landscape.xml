@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+                <ImageView android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:contentDescription="vegetables"
+                    android:background="@drawable/background"
+                    android:padding="1dp"
+                    android:id="@+id/vegetables"
+                    android:src="@drawable/vegetables_carrot"
+                    android:onClick="validate"
+                    android:clickable="true"
+                    android:layout_gravity="center_horizontal"
+                    android:adjustViewBounds="false">
+                </ImageView>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+                <ImageView android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:contentDescription="animals"
+                    android:background="@drawable/background"
+                    android:id="@+id/animalImage"
+                    android:src="@drawable/animals_elephant"
+                    android:onClick="validate"
+                    android:clickable="true"
+                    android:layout_gravity="center_horizontal">
+                </ImageView>
+            </FrameLayout>
+
+
+            <FrameLayout android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:contentDescription="check_mark"
+                    android:background="@drawable/background"
+                    android:id="@+id/status"
+                    android:onClick="validate"
+                    android:clickable="true"
+                    android:layout_gravity="center_horizontal">
+                </ImageView>
+            </FrameLayout>
+     </TableRow>
+
+        <TableRow>
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+                <ImageView android:layout_width="match_parent"
+                    android:layout_height="157dp"
+                    android:contentDescription="bodyparts"
+                    android:id="@+id/bodypartImage"
+                    android:background="@drawable/background"
+                    android:src="@drawable/pb_face"
+                    android:onClick="validate"
+                    android:clickable="true"
+                    android:layout_gravity="center_horizontal">
+                </ImageView>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+                <ImageView android:layout_width="match_parent"
+                    android:layout_height="157dp"
+                    android:contentDescription="fruits"
+                    android:id="@+id/fruits"
+                    android:background="@drawable/background"
+                    android:src="@drawable/fruits_watermelon"
+                    android:onClick="validate"
+                    android:clickable="true"
+                    android:layout_gravity="center_horizontal">
+                </ImageView>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <Button android:layout_width="match_parent"
+                    android:layout_height="157dp"
+                    android:contentDescription="Button"
+                    android:id="@+id/repeatSound"
+                    android:onClick="repeatSound"
+                    android:text="Repeat Sound"
+                    android:clickable="true"
+                    android:background="@drawable/background"
+                    android:layout_gravity="center_horizontal"
+                    android:drawableTop="@drawable/button_repeat"
+                    android:textColor="#ffffff">
+                </Button>
+            </FrameLayout>
+
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
+

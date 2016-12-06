@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+                <ImageView android:layout_width="350dp"
+                    android:layout_height="350dp"
+                    android:src="@drawable/animals_elephant"
+                    android:id="@+id/buttonWeddingDayCheatSheet1"
+                    android:onClick="onClickWeddingDayCheatSheet"
+                    android:layout_gravity="center_horizontal">
+                </ImageView>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+                <ImageView android:layout_width="350dp"
+                    android:layout_height="350dp"
+                    android:src="@drawable/vegetables_carrot"
+                    android:id="@+id/buttonShareFavoriteRecipe2"
+                    android:onClick="onClickShareFavoriteRecipe"
+                    android:layout_gravity="center_horizontal">
+                </ImageView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+                <ImageView android:layout_width="350dp"
+                    android:layout_height="350dp"
+                    android:src="@drawable/vegetables_carrot"
+                    android:id="@+id/buttonShareFavoriteRecipe3"
+                    android:onClick="onClickShareFavoriteRecipe"
+                    android:layout_gravity="center_horizontal">
+                </ImageView>
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow>
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <ImageView android:layout_width="350dp"
+                    android:layout_height="350dp"
+                    android:src="@drawable/animals_elephant"
+                    android:id="@+id/buttonWeddingDayCheatSheet11"
+                    android:onClick="onClickWeddingDayCheatSheet"
+                    android:layout_gravity="center_horizontal">
+                </ImageView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+                <ImageView android:layout_width="350dp"
+                    android:layout_height="350dp"
+                    android:src="@drawable/vegetables_carrot"
+                    android:id="@+id/buttonShareFavoriteRecipe21"
+                    android:onClick="onClickShareFavoriteRecipe"
+                    android:layout_gravity="center_horizontal">
+                </ImageView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+                <ImageView android:layout_width="350dp"
+                    android:layout_height="350dp"
+                    android:src="@drawable/vegetables_carrot"
+                    android:id="@+id/buttonShareFavoriteRecipe31"
+                    android:onClick="onClickShareFavoriteRecipe"
+                    android:layout_gravity="center_horizontal">
+                </ImageView>
+            </FrameLayout>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
+
